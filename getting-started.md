@@ -1,5 +1,7 @@
 # Getting Started
 
+translated from https://vuex.vuejs.org
+
 1. 当 Vue 组件从 store 取状态 (state) 时，如果 store 的状态变化了，Vue 组件将会是响应式的并会有效的更新。<!-- issu-1 -->
 
 2. 你不能直接修改 store 的状态。修改 store 状态的唯一方式是明确地提交修改 (explicity comming mutations)。这使得每个状态变化可预测，并使得工具帮助我们更好地理解我们的应用程序。(这只是约定而已)
@@ -79,6 +81,6 @@ class Counter extends Vue{
 
 使用 Vuex 并不意味着你应该把状态都放在 Vuex 中。虽然把状态都放在 Vuex 中使得状态 (state) 修改更明确且可调度，但也使得代码更繁索而且不直接。做决定时权衡利蔽以适应你项目的开发需求。
 
-# q禾金
+# q
 
 Vue.use(Vuex)
